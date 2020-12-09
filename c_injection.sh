@@ -2,7 +2,7 @@
 O_FILENAME=final # now you can change this i think PogChamp
 BUILD_DIR=build/c_injection
 LDFILE=$BUILD_DIR/c_injection.ld
-QEMU_IRIX=/home/faris/qemu-irix
+QEMU_IRIX=qemu-irix
 OPT_FLAGS="-O2 -g3"
 
 C_FILE=${1}

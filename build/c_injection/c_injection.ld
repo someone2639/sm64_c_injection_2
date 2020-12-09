@@ -1,7 +1,7 @@
 SECTIONS
 {
     __romPos = 0x0;
-    .name 0x80000000 : AT(__romPos){
+    .name 0x80406000 : AT(__romPos){
         build/c_injection/final.o(.text*);
         build/c_injection/final.o(.data*);
         build/c_injection/final.o(.rodata*);
